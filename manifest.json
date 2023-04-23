@@ -1,0 +1,38 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "botSafe, cheating detection to prevent griefing and automated accounts.",
+        "min_engine_version": [1, 19, 73],
+        "name": "§7[§bbotSafe§7] §8(v1.0.0)§r",
+        "uuid": "cbe6aa73-d1f9-4b2b-a2e3-dda0f37090f3",
+        "version": [2, 1, 7]
+    },
+    "metadata": {
+        "authors": ["botSafe Team"],
+        "url": "https://dsc.gg/botSafe"
+    },
+    "modules": [{
+            "description": "ABC123DoReMi",
+            "type": "data",
+            "uuid": "7cb004b8-88bd-4d9e-929e-aa0d7f7ae2a1",
+            "version": [1, 0, 0]
+        },
+        {
+            "description": "Gametest Framework",
+            "entry": "scripts/main.js",
+            "language": "javascript",
+            "type": "script",
+            "uuid": "ab31620b-f498-4355-9bea-498922f5940e",
+            "version": [0, 1, 0]
+        }
+    ],
+    "dependencies": [{
+            "module_name": "@minecraft/server",
+	    "version": "1.1.0-beta"
+        },
+        {
+      	    "module_name": "@minecraft/server-gametest",
+            "version": "1.0.0-beta"
+        }
+    ]
+}
