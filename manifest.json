@@ -4,7 +4,7 @@
         "description": "botSafe, cheating detection to prevent griefing and automated accounts.",
         "min_engine_version": [1, 19, 73],
         "name": "§7[§bbotSafe§7] §8(v1.0.0)§r",
-        "uuid": "cbe6aa73-d1f9-4b2b-a2e3-dda0f37090f3",
+        "uuid": "a533d6c8-a11c-482e-976d-baa556881596",
         "version": [2, 1, 7]
     },
     "metadata": {
